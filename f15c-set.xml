@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+F-15C Eagle JSBSim config file
+Fabrice Kauffmann,  f-kauffmann@skynet.bet
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>F-15C Eagle</description>
+  <author>Fabrice Kauffmann</author>
+  <status>Early development</status>
+ 
+  <flight-model>jsb</flight-model>
+  <aero>f15c</aero>
+
+  <startup>
+   <splash-texture>Aircraft/f15c/f15c-splash.rgb</splash-texture>
+  </startup>
+  
+  <sound>
+   <path>Aircraft/f15c/f15c-sound.xml</path>
+  </sound>
+
+  <panel>
+   <path>Aircraft/f15c/Panels/f15c-2d-panel.xml</path>
+   <visibility archive="y">true</visibility>
+  </panel> 
+  <panel_2>
+   <visibility>false</visibility>
+  </panel_2>
+  
+  <hud>
+   <path>Aircraft/f15c/Hud/default.xml</path>
+   <visibility>true</visibility>
+  </hud>
+  
+  <view>
+   <config>
+     <pitch-offset-deg>-9</pitch-offset-deg>
+     <default-field-of-view-deg>60</default-field-of-view-deg>
+   </config>
+  </view>
+
+  <model>
+   <path>Aircraft/f15c/Models/f15c.xml</path>
+  </model>
+
+  <chase-distance-m>-25</chase-distance-m>
+
+  <!-- turns off GA tower communications -->
+  <ATC>
+   <enabled type="bool">false</enabled>
+  </ATC>
+
+  <!-- turns off GA traffic -->
+  <ai-traffic>
+   <enabled type="bool">false</enabled>
+  </ai-traffic>
+
+ </sim>
+ 
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+ </engines>
+ 
+</PropertyList>
