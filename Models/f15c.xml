@@ -173,11 +173,11 @@
   <type>rotate</type>
   <object-name>AirBrake</object-name>
   <property>surface-positions/speedbrake-pos-norm</property>
-  <factor>-60</factor>
+  <factor>-50</factor>
   <center>
-   <x-m>0.14</x-m>
-   <y-m>0.6</y-m>
-   <z-m>0</z-m>
+   <x-m>0.097</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.6</z-m>
   </center>
   <axis>
    <x>0.0</x>
