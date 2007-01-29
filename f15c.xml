@@ -6,7 +6,7 @@
 
     <fileheader>
         <author> Fabrice Kauffmann </author>
-        <filecreationdate> 2007-01-20 </filecreationdate>
+        <filecreationdate> 2007-01-27 </filecreationdate>
         <version> $Revision$ </version>
         <description> Models a F-15C Eagle based on the F-16A Block-32 from Erik Hofman </description>
         <reference refID="ISBN 0-7232-3458-2" author="William Green" title="General Dynamics F-16 Dash-1" date="1987"/>
