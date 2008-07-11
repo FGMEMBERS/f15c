@@ -1,21 +1,18 @@
 <?xml version="1.0"?>
-<!--
-************************************************************************
-F-15C Eagle JSBSim config file
-Fabrice Kauffmann,  f-kauffmann@skynet.bet
-************************************************************************
--->
 
 <PropertyList>
 
  <sim>
-
-  <description>F-15C Eagle</description>
-  <author>Fabrice Kauffmann</author>
-  <status>Early production</status>
+  <description>McDonell Douglas F-15 Eagle</description>
+  <author>Erik Hofman</author>
+  <status>alpha</status>
  
   <flight-model>jsb</flight-model>
-  <aero>f15c</aero>
+  <aero>f15</aero>
+
+  <help>
+   <title>F-15 Eagle</title>
+  </help>
 
   <startup>
    <splash-texture>Aircraft/f15c/f15c-splash.rgb</splash-texture>
@@ -25,19 +22,30 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
    <path>Aircraft/f15c/f15c-sound.xml</path>
   </sound>
 
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <x-offset-m archive="y">0</x-offset-m>
+    <y-offset-m archive="y">0.9</y-offset-m>
+    <z-offset-m archive="y">-3.95</z-offset-m>
+   </config>
+  </view>
+
   <panel>
    <path>Aircraft/f15c/Panels/f15c-2d-panel.xml</path>
-   <visibility archive="y">true</visibility>
-  </panel> 
+   <visibility archive="y">false</visibility>
+  </panel>
   <panel_2>
    <visibility>false</visibility>
   </panel_2>
-  
+
   <hud>
    <path>Aircraft/f15c/Hud/default.xml</path>
    <visibility>true</visibility>
   </hud>
-  
+
   <view>
    <config>
      <pitch-offset-deg>-9</pitch-offset-deg>
@@ -51,22 +59,26 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
 
   <chase-distance-m>-25</chase-distance-m>
 
-  <!-- turns off GA tower communications -->
-  <ATC>
-   <enabled type="bool">false</enabled>
-  </ATC>
-
-  <!-- turns off GA traffic -->
-  <ai-traffic>
-   <enabled type="bool">false</enabled>
-  </ai-traffic>
-
  </sim>
- 
+
  <engines>
   <engine n="0">
     <running>true</running>
   </engine>
+  <engine n="1">
+    <running>true</running>
+  </engine>
  </engines>
- 
+
+ <consumables>
+  <fuel>
+   <tank n="0">
+    <level-gal_us archive="y">200</level-gal_us>
+   </tank>
+   <tank n="1">
+    <level-gal_us archive="y">200</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+
 </PropertyList>
