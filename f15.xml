@@ -526,7 +526,7 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <property>fcs/mag-elevator-pos-rad</property>
+                    <abs><property>fcs/mag-elevator-pos-rad</property></abs>
                     <value>0.0438</value>
                 </product>
             </function>
