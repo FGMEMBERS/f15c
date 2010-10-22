@@ -34,9 +34,15 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </panel_2>
   
   <hud>
-   <path>Aircraft/f15c/Hud/default.xml</path>
-   <visibility>true</visibility>
-  </hud>
+     <path n="1">Aircraft/f15c/Panels/hud.xml</path>
+     <visibility n="1">true</visibility>
+     <clipping>
+         <left type="double">-70</left>
+         <right type="double">70</right>
+         <top type="double">33</top><!-- 20 -->
+         <bottom type="double">-88</bottom><!-- -102 -->
+     </clipping>
+    </hud>
   
   <view>
    <config>
