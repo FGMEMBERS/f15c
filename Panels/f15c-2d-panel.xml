@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!--
+F-15C panel - 2007.01.14
+Fabrice Kauffmann, f-kauffmann@skynet.be
+http://scifi.skynetblogs.be
+_______________________________________________________________________
+-->
+
+<PropertyList>
+
+ <name>F-15C Panel</name>
+ <background>Aircraft/f15c/Panels/Textures/F15CPanel-00.rgb</background>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-00.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-01.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-06.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-02.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-07.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-03.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-00.rgb</multibackground>
+ <multibackground>Aircraft/f15c/Panels/Textures/F15CPanel-04.rgb</multibackground>
+ <w>1024</w>
+ <h>768</h>
+ <y-offset>0</y-offset>
+ <view-height>1024</view-height>
+
+</PropertyList>
